@@ -1,0 +1,42 @@
+body {
+  background-color: #000;
+}
+/* colors */
+:root {
+  --primary-color: #fff;
+  --secondary-color: #ffff00;
+}
+.main {
+  margin-top: 25vh;
+}
+.nav-link,
+.navbar-brand {
+  color: var(--primary-color);
+}
+.navbar-brand:hover,
+.nav-link:hover {
+  color: var(--secondary-color);
+}
+.navbar.toggler.icon {
+    color: var(--secondary-color);
+}
+/* my logo */
+.my-logo {
+    padding: 10px;
+    border: 2px solid var(--primary-color);
+    border-radius: 50%;
+}
+.secondary {
+    color: var(--secondary-color);
+}
+.work-contact {
+  list-style: none;
+} 
+.work-contact li {
+  margin-right: 10px;
+}
+.work-contact a {
+  border-bottom: 2px solid var(--secondary-color);
+  color: white;
+  text-decoration: none;
+}
