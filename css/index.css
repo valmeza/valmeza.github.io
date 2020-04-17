@@ -46,7 +46,22 @@ body {
 .projects img {
   width: 290px;
   height: 250px;
+  border-radius: 5px;
+  opacity: .5;
+}
+.projects img:hover {
+  opacity: 1;
 }
 .projects {
   margin-top: 20vh;
+}
+h5 {
+  color: var(--primary-color);
+}
+.github {
+  color: var(--primary-color);
+}
+.github:hover {
+  color: var(--secondary-color);
+  text-decoration: none;
 }
