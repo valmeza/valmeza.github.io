@@ -40,3 +40,10 @@ body {
   color: white;
   text-decoration: none;
 }
+
+/* projects page */
+
+.projects img {
+  width: 290px;
+  height: 250px;
+}
