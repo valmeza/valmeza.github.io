@@ -1,5 +1,8 @@
 body {
-  background-color: #000;
+  background-color: black;
+}
+.title {
+  font-size: 4em;
 }
 /* colors */
 :root {
@@ -18,20 +21,20 @@ body {
   color: var(--secondary-color);
 }
 .navbar.toggler.icon {
-    color: var(--secondary-color);
+  color: var(--secondary-color);
 }
 /* my logo */
 .my-logo {
-    padding: 10px;
-    border: 2px solid var(--primary-color);
-    border-radius: 50%;
+  padding: 10px;
+  border: 2px solid var(--primary-color);
+  border-radius: 50%;
 }
 .secondary {
-    color: var(--secondary-color);
+  color: var(--secondary-color);
 }
 .work-contact {
   list-style: none;
-} 
+}
 .work-contact li {
   margin-right: 10px;
 }
@@ -44,16 +47,15 @@ body {
 /* projects page */
 
 .projects img {
-  width: 290px;
+  width: 300px;
   height: 250px;
   border-radius: 5px;
-  opacity: .5;
-}
-.projects img:hover {
-  opacity: 1;
 }
 .projects {
   margin-top: 20vh;
+}
+.projects div:hover {
+  transform: scale(1.1)
 }
 h5 {
   color: var(--primary-color);
