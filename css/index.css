@@ -47,11 +47,12 @@ body {
 }
 
 .main {
-  margin-top: 25vh;
+  margin-top: 18vh;
 }
 
 .navbar a {
   color: #fff;
+  font-size: 1.5em;
 }
 .navbar a:hover {
   color: #ffff00;
@@ -72,6 +73,30 @@ body {
   border-bottom: 2px solid #ffff00;
   color: white;
   text-decoration: none;
+}
+
+.container-skills {
+  width: 100%;
+  background-color: #333;
+  border-radius: 4px;
+}
+.container-skills .skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+}
+.container-skills .html {
+  width: 90%;
+  background-color: #ff4c1e;
+}
+.container-skills .css {
+  width: 75%;
+  background-color: #0074bc;
+}
+.container-skills .js {
+  width: 70%;
+  background-color: #fba920;
 }
 
 #marioDrive {
