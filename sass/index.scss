@@ -41,5 +41,19 @@ body {
   }
 }
 
+// mario luigi Konami Code
+#marioDrive {
+  position: absolute;
+  left: -117px;
+  animation-name: drive;
+  animation-duration: 6s;
+}
+#luigiDrive {
+  position: absolute;
+  left: -120px;
+  animation-name: drive;
+  animation-duration: 7s;
+}
+
 
 

@@ -67,4 +67,18 @@ body {
   text-decoration: none;
 }
 
+#marioDrive {
+  position: absolute;
+  left: -117px;
+  animation-name: drive;
+  animation-duration: 6s;
+}
+
+#luigiDrive {
+  position: absolute;
+  left: -120px;
+  animation-name: drive;
+  animation-duration: 7s;
+}
+
 /*# sourceMappingURL=index.css.map */
