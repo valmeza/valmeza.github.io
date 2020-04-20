@@ -1,5 +1,6 @@
 @import "config";
 @import "projects";
+@import 'contact';
 
 body {
   background-color: $bg-color;
@@ -29,7 +30,6 @@ body {
     border-radius: 50%;
   }
 }
-
 .work-contact {
   list-style: none;
   & li {

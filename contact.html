@@ -50,16 +50,45 @@
         </ul>
       </div>
     </nav>
-    <div class="container text-white">
+    <div class="container text-white contact-me">
         <h2>How to reach <span class="secondary">me</span>...</h2>
     </div>
-    <div id="number">
+    <div id="number-email">
       <h3>
+        <i class="fas fa-mobile-alt secondary"></i>
         405-823-2980
       </h3>
       <h3>
+        <i class="far fa-paper-plane secondary"></i>
         Email: valeriameza173@gmail.com
       </h3>
+      <form action="" class="form">
+        <label for="name">
+          <span>
+            Enter Your Name
+          </span>
+          <input type="text" name="email" required="true">
+        </label>
+        <label for="email">
+          <span>
+            Email Address
+          </span>
+          <input type="email" name="email" required="true">
+        </label>
+        <label for="subject">
+          <span>
+            Subject
+          </span>
+          <input type="text" name="subject" required="true">
+        </label>
+        <label for="message">
+          <span>
+            Message
+          </span>
+          <input type="text" name="message" onkeyup="adjust_textarea(this)">
+        </label>
+        <span> </span><input type="submit" value="Send">
+      </form>
     </div>
     <div id="social">
       <a href=""><i class="fab fa-twitter"></i></a>
