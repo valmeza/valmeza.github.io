@@ -75,3 +75,13 @@
     background: #394d61;
   }
 }
+#social {
+    text-align: center;
+    & i {
+        color: $primary-color;
+        font-size: 2em;
+    }
+    & i:hover {
+        color: $secondary-color;
+    }
+}
