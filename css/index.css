@@ -19,13 +19,6 @@
   height: 250px;
   border-radius: 5px;
 }
-.projects div:hover {
-  transform: scale(1.1);
-}
-
-h5 {
-  color: #fff;
-}
 
 .github {
   color: #fff;

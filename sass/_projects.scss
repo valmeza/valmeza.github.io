@@ -5,14 +5,8 @@
       height: 250px;
       border-radius: 5px;
     }
-    & div:hover {
-      transform: scale(1.1);
-    }
   }
   
-  h5 {
-    color: $primary-color;
-  }
   .github {
     color: $primary-color;
     &:hover {
