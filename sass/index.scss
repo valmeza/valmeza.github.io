@@ -1,74 +1,70 @@
-@import 'config';
+@import "config";
+@import "projects";
 
 body {
-    background-color: $bg-color;
-    color: $primary-color;
-    font-family: $paragraph-font;
+  background-color: $bg-color;
+  color: $primary-color;
+  font-family: $paragraph-font;
 }
 
 .title {
-    font-size: 4em;
+  font-size: 4em;
+}
+
+.main {
+  margin-top: 25vh;
+}
+.navbar {
+  & a {
+    color: $primary-color;
   }
-  /* colors */
-  :root {
-    --primary-color: #fff;
-    --secondary-color: #ffff00;
+  & a:hover {
+    color: $secondary-color;
   }
-  .main {
-    margin-top: 25vh;
-  }
-  .nav-link,
-  .navbar-brand {
-    color: var(--primary-color);
-  }
-  .navbar-brand:hover,
-  .nav-link:hover {
-    color: var(--secondary-color);
-  }
-  .navbar.toggler.icon {
-    color: var(--secondary-color);
-  }
-  /* my logo */
   .my-logo {
     padding: 10px;
-    border: 2px solid var(--primary-color);
+    border: 2px solid $primary-color;
     border-radius: 50%;
   }
-  .secondary {
-    color: var(--secondary-color);
-  }
-  .work-contact {
-    list-style: none;
-  }
-  .work-contact li {
+}
+
+.secondary {
+  color: $secondary-color;
+}
+.work-contact {
+  list-style: none;
+  & li {
     margin-right: 10px;
   }
-  .work-contact a {
-    border-bottom: 2px solid var(--secondary-color);
+  & a {
+    border-bottom: 2px solid $secondary-color;
     color: white;
     text-decoration: none;
   }
-  
-  /* projects page */
-  
-  .projects img {
+}
+
+/* projects page */
+
+.projects {
+  margin-top: 20vh;
+  & img {
     width: 300px;
     height: 250px;
     border-radius: 5px;
   }
-  .projects {
-    margin-top: 20vh;
+  & div:hover {
+    transform: scale(1.1);
   }
-  .projects div:hover {
-    transform: scale(1.1)
-  }
-  h5 {
-    color: var(--primary-color);
-  }
-  .github {
-    color: var(--primary-color);
-  }
-  .github:hover {
-    color: var(--secondary-color);
+}
+
+h5 {
+  color: $primary-color;
+}
+.github {
+  color: $primary-color;
+  &:hover {
+    color: $secondary-color;
     text-decoration: none;
   }
+}
+

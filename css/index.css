@@ -1,2 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap");
+@keyframes drive {
+  from {
+    transform: translate(0px);
+  }
+  to {
+    transform: translate(2500px);
+  }
+}
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Abel", sans-serif;
+}
 
+.title {
+  font-size: 4em;
+}
 
+.main {
+  margin-top: 25vh;
+}
+
+.navbar a {
+  color: #fff;
+}
+.navbar a:hover {
+  color: #ffff00;
+}
+.navbar .my-logo {
+  padding: 10px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+.secondary {
+  color: #ffff00;
+}
+
+.work-contact {
+  list-style: none;
+}
+.work-contact li {
+  margin-right: 10px;
+}
+.work-contact a {
+  border-bottom: 2px solid #ffff00;
+  color: white;
+  text-decoration: none;
+}
+
+/* projects page */
+.projects {
+  margin-top: 20vh;
+}
+.projects img {
+  width: 300px;
+  height: 250px;
+  border-radius: 5px;
+}
+.projects div:hover {
+  transform: scale(1.1);
+}
+
+h5 {
+  color: #fff;
+}
+
+.github {
+  color: #fff;
+}
+.github:hover {
+  color: #ffff00;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=index.css.map */
