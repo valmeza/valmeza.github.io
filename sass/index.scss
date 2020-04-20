@@ -1,1 +1,74 @@
 @import 'config';
+
+body {
+    background-color: $bg-color;
+    color: $primary-color;
+    font-family: $paragraph-font;
+}
+
+.title {
+    font-size: 4em;
+  }
+  /* colors */
+  :root {
+    --primary-color: #fff;
+    --secondary-color: #ffff00;
+  }
+  .main {
+    margin-top: 25vh;
+  }
+  .nav-link,
+  .navbar-brand {
+    color: var(--primary-color);
+  }
+  .navbar-brand:hover,
+  .nav-link:hover {
+    color: var(--secondary-color);
+  }
+  .navbar.toggler.icon {
+    color: var(--secondary-color);
+  }
+  /* my logo */
+  .my-logo {
+    padding: 10px;
+    border: 2px solid var(--primary-color);
+    border-radius: 50%;
+  }
+  .secondary {
+    color: var(--secondary-color);
+  }
+  .work-contact {
+    list-style: none;
+  }
+  .work-contact li {
+    margin-right: 10px;
+  }
+  .work-contact a {
+    border-bottom: 2px solid var(--secondary-color);
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* projects page */
+  
+  .projects img {
+    width: 300px;
+    height: 250px;
+    border-radius: 5px;
+  }
+  .projects {
+    margin-top: 20vh;
+  }
+  .projects div:hover {
+    transform: scale(1.1)
+  }
+  h5 {
+    color: var(--primary-color);
+  }
+  .github {
+    color: var(--primary-color);
+  }
+  .github:hover {
+    color: var(--secondary-color);
+    text-decoration: none;
+  }
