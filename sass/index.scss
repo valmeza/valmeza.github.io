@@ -1,0 +1,60 @@
+@import "config";
+@import "projects";
+
+body {
+  background-color: $bg-color;
+  color: $primary-color;
+  font-family: $paragraph-font;
+}
+
+.title {
+  font-family: $header-font;
+  font-size: 4em;
+}
+
+.main {
+  margin-top: 25vh;
+}
+.navbar {
+  & a {
+    color: $primary-color;
+  }
+  & a:hover {
+    color: $secondary-color;
+  }
+  .my-logo {
+    padding: 10px;
+    border: 2px solid $primary-color;
+    border-radius: 50%;
+  }
+}
+
+.work-contact {
+  list-style: none;
+  & li {
+    margin-right: 10px;
+  }
+  & a {
+    border-bottom: 2px solid $secondary-color;
+    color: white;
+    text-decoration: none;
+  }
+}
+
+// mario luigi Konami Code
+#marioDrive {
+  position: absolute;
+  left: -117px;
+  animation-name: drive;
+  animation-duration: 6s;
+}
+#luigiDrive {
+  position: absolute;
+  left: -120px;
+  bottom: 50px;
+  animation-name: drive;
+  animation-duration: 7s;
+}
+
+
+

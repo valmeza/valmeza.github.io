@@ -1,0 +1,28 @@
+//font sizes and font-families
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap");
+
+// text colors
+$bg-color: #000;
+$card-bg-color: #333;
+$primary-color: #fff;
+$secondary-color: #ffff00;
+
+// bg color and container colors
+$header-font-size: 4em;
+$header-font: "Anton", sans-serif;
+$paragraph-font: "Abel", sans-serif;
+
+// span color
+.secondary {
+    color: $secondary-color;
+  }
+
+//mario luigi config
+@keyframes drive {
+    from {
+        transform: translate(0px);
+    }
+    to {
+        transform: translate(2500px);
+    }
+}

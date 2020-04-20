@@ -1,67 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap");
+.secondary {
+  color: #ffff00;
+}
+
+@keyframes drive {
+  from {
+    transform: translate(0px);
+  }
+  to {
+    transform: translate(2500px);
+  }
+}
+.my-projects {
+  font-family: "Anton", sans-serif;
+}
+
+.projects {
+  margin-top: 20vh;
+}
+.projects h5 {
+  font-family: "Anton", sans-serif;
+}
+.projects img {
+  width: 300px;
+  height: 250px;
+  border-radius: 5px;
+}
+
+.github {
+  color: #fff;
+}
+.github:hover {
+  color: #ffff00;
+  text-decoration: none;
+}
+
 body {
   background-color: #000;
+  color: #fff;
+  font-family: "Abel", sans-serif;
 }
-/* colors */
-:root {
-  --primary-color: #fff;
-  --secondary-color: #ffff00;
+
+.title {
+  font-family: "Anton", sans-serif;
+  font-size: 4em;
 }
+
 .main {
   margin-top: 25vh;
 }
-.nav-link,
-.navbar-brand {
-  color: var(--primary-color);
+
+.navbar a {
+  color: #fff;
 }
-.navbar-brand:hover,
-.nav-link:hover {
-  color: var(--secondary-color);
+.navbar a:hover {
+  color: #ffff00;
 }
-.navbar.toggler.icon {
-    color: var(--secondary-color);
+.navbar .my-logo {
+  padding: 10px;
+  border: 2px solid #fff;
+  border-radius: 50%;
 }
-/* my logo */
-.my-logo {
-    padding: 10px;
-    border: 2px solid var(--primary-color);
-    border-radius: 50%;
-}
-.secondary {
-    color: var(--secondary-color);
-}
+
 .work-contact {
   list-style: none;
-} 
+}
 .work-contact li {
   margin-right: 10px;
 }
 .work-contact a {
-  border-bottom: 2px solid var(--secondary-color);
+  border-bottom: 2px solid #ffff00;
   color: white;
   text-decoration: none;
 }
 
-/* projects page */
+#marioDrive {
+  position: absolute;
+  left: -117px;
+  animation-name: drive;
+  animation-duration: 6s;
+}
 
-.projects img {
-  width: 290px;
-  height: 250px;
-  border-radius: 5px;
-  opacity: .5;
+#luigiDrive {
+  position: absolute;
+  left: -120px;
+  bottom: 50px;
+  animation-name: drive;
+  animation-duration: 7s;
 }
-.projects img:hover {
-  opacity: 1;
-}
-.projects {
-  margin-top: 20vh;
-}
-h5 {
-  color: var(--primary-color);
-}
-.github {
-  color: var(--primary-color);
-}
-.github:hover {
-  color: var(--secondary-color);
-  text-decoration: none;
-}
+
+/*# sourceMappingURL=index.css.map */
