@@ -11,8 +11,15 @@
     transform: translate(2500px);
   }
 }
+.my-projects {
+  font-family: "Anton", sans-serif;
+}
+
 .projects {
   margin-top: 20vh;
+}
+.projects h5 {
+  font-family: "Anton", sans-serif;
 }
 .projects img {
   width: 300px;
