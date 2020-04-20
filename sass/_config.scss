@@ -12,6 +12,11 @@ $header-font-size: 4em;
 $header-font: "Anton", sans-serif;
 $paragraph-font: "Abel", sans-serif;
 
+// span color
+.secondary {
+    color: $secondary-color;
+  }
+
 //mario luigi config
 @keyframes drive {
     from {

@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap");
+.secondary {
+  color: #ffff00;
+}
+
 @keyframes drive {
   from {
     transform: translate(0px);
@@ -7,49 +11,6 @@
     transform: translate(2500px);
   }
 }
-body {
-  background-color: #000;
-  color: #fff;
-  font-family: "Abel", sans-serif;
-}
-
-.title {
-  font-size: 4em;
-}
-
-.main {
-  margin-top: 25vh;
-}
-
-.navbar a {
-  color: #fff;
-}
-.navbar a:hover {
-  color: #ffff00;
-}
-.navbar .my-logo {
-  padding: 10px;
-  border: 2px solid #fff;
-  border-radius: 50%;
-}
-
-.secondary {
-  color: #ffff00;
-}
-
-.work-contact {
-  list-style: none;
-}
-.work-contact li {
-  margin-right: 10px;
-}
-.work-contact a {
-  border-bottom: 2px solid #ffff00;
-  color: white;
-  text-decoration: none;
-}
-
-/* projects page */
 .projects {
   margin-top: 20vh;
 }
@@ -71,6 +32,45 @@ h5 {
 }
 .github:hover {
   color: #ffff00;
+  text-decoration: none;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Abel", sans-serif;
+}
+
+.title {
+  font-family: "Anton", sans-serif;
+  font-size: 4em;
+}
+
+.main {
+  margin-top: 25vh;
+}
+
+.navbar a {
+  color: #fff;
+}
+.navbar a:hover {
+  color: #ffff00;
+}
+.navbar .my-logo {
+  padding: 10px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+.work-contact {
+  list-style: none;
+}
+.work-contact li {
+  margin-right: 10px;
+}
+.work-contact a {
+  border-bottom: 2px solid #ffff00;
+  color: white;
   text-decoration: none;
 }
 

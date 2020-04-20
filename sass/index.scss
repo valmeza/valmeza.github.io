@@ -8,6 +8,7 @@ body {
 }
 
 .title {
+  font-family: $header-font;
   font-size: 4em;
 }
 
@@ -28,9 +29,6 @@ body {
   }
 }
 
-.secondary {
-  color: $secondary-color;
-}
 .work-contact {
   list-style: none;
   & li {
@@ -43,28 +41,5 @@ body {
   }
 }
 
-/* projects page */
 
-.projects {
-  margin-top: 20vh;
-  & img {
-    width: 300px;
-    height: 250px;
-    border-radius: 5px;
-  }
-  & div:hover {
-    transform: scale(1.1);
-  }
-}
-
-h5 {
-  color: $primary-color;
-}
-.github {
-  color: $primary-color;
-  &:hover {
-    color: $secondary-color;
-    text-decoration: none;
-  }
-}
 
