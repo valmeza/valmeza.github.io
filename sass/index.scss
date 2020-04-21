@@ -11,6 +11,10 @@ body {
 .title {
   font-family: $header-font;
   font-size: 4em;
+  h1:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
 }
 
 .main {
