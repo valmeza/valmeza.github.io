@@ -1,6 +1,6 @@
 @import "config";
 @import "projects";
-@import 'contact';
+@import "contact";
 
 body {
   background-color: $bg-color;
@@ -11,7 +11,7 @@ body {
 .title {
   font-family: $header-font;
   font-size: 4em;
-  h1:hover {
+   &:hover {
     animation: shake 0.5s;
     animation-iteration-count: infinite;
   }
@@ -56,9 +56,18 @@ body {
     padding-bottom: 10px;
     border-radius: 4px;
   }
-  .html {width: 90%; background-color: #ff4c1e;}
-  .css {width: 75%; background-color: #0074bc;}
-  .js {width: 70%; background-color: #fba920;}
+  .html {
+    width: 90%;
+    background-color: #ff4c1e;
+  }
+  .css {
+    width: 75%;
+    background-color: #0074bc;
+  }
+  .js {
+    width: 70%;
+    background-color: #fba920;
+  }
 }
 // mario luigi Konami Code
 #marioDrive {
@@ -74,6 +83,3 @@ body {
   animation-name: drive;
   animation-duration: 7s;
 }
-
-
-
