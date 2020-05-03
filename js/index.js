@@ -1,7 +1,8 @@
 (function () {
   "use strict";
   $(document).ready(function () {
-    console.log("Looking Good");
+    console.log("Try the Konami Code!");
+    // secret code
     var superMarioTrigger = "38384040373937396665";
     var triggerMario = "";
     $(document).keyup(function (e) {
@@ -19,4 +20,3 @@
     });
   });
 })();
-

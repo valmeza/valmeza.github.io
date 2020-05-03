@@ -4,8 +4,8 @@
 
 body {
   background-color: $bg-color;
-  color: $primary-color;
   font-family: $paragraph-font;
+  color: $primary-color;
 }
 
 .title {
@@ -48,7 +48,7 @@ body {
 //skills
 .container-skills {
   width: 100%;
-  background-color: #333;
+  background-color: $bg-color;
   border-radius: 4px;
   .skills {
     text-align: right;
@@ -58,15 +58,15 @@ body {
   }
   .html {
     width: 90%;
-    background-color: #ff4c1e;
+    background-color: $html-bar-color;
   }
   .css {
     width: 75%;
-    background-color: #0074bc;
+    background-color: $css-bar-color;
   }
   .js {
     width: 70%;
-    background-color: #fba920;
+    background-color: $js-bar-color;
   }
 }
 // mario luigi Konami Code

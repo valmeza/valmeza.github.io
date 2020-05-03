@@ -1,14 +1,18 @@
 //font sizes and font-families
 @import url("https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap");
 
-// text colors
-$bg-color: #000;
-$card-bg-color: #333;
-$primary-color: #fff;
-$secondary-color: #ffff00;
+// colors
+$bg-color: #3e6b89;
+$card-bg-color: #083D77;
+$primary-color: #F7F7FF;
+$secondary-color: #FF9F1C;
+$html-bar-color: #FF9F1C;
+$css-bar-color: #FF9F1C;
+$js-bar-color: #FF9F1C;
 
-// bg color and container colors
+// font sizes font family
 $header-font-size: 4em;
+$paragraph-font-size: 2em;
 $header-font: "Anton", sans-serif;
 $paragraph-font: "Abel", sans-serif;
 
