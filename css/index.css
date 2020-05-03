@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap");
 .secondary {
-  color: #FF9F1C;
+  color: #B4B8AB;
 }
 
 @keyframes drive {
@@ -54,7 +54,7 @@
   color: #F7F7FF;
 }
 .github:hover {
-  color: #FF9F1C;
+  color: #B4B8AB;
   text-decoration: none;
 }
 
@@ -100,7 +100,7 @@
 
 /* Style the back side */
 .flip-card-back {
-  background-color: #083D77;
+  background-color: #284B63;
   color: white;
   transform: rotateY(180deg);
 }
@@ -122,7 +122,7 @@
   background: #f7f7f7;
 }
 .form-style-6 h1 {
-  background: #083D77;
+  background: #284B63;
   padding: 20px 0;
   font-size: 140%;
   font-weight: 300;
@@ -177,8 +177,8 @@
   -moz-box-sizing: border-box;
   width: 100%;
   padding: 3%;
-  background: #083D77;
-  border-bottom: 2px solid #083D77;
+  background: #284B63;
+  border-bottom: 2px solid #284B63;
   border-top-style: none;
   border-right-style: none;
   border-left-style: none;
@@ -186,7 +186,7 @@
 }
 .form-style-6 input[type=submit]:hover,
 .form-style-6 input[type=button]:hover {
-  background: #083D77;
+  background: #284B63;
 }
 
 #social {
@@ -197,11 +197,11 @@
   font-size: 2em;
 }
 #social i:hover {
-  color: #FF9F1C;
+  color: #B4B8AB;
 }
 
 body {
-  background-color: #545E75;
+  background-color: #13293D;
   font-family: "Abel", sans-serif;
   color: #F7F7FF;
 }
@@ -224,7 +224,7 @@ body {
   font-size: 1.5em;
 }
 .navbar a:hover {
-  color: #FF9F1C;
+  color: #B4B8AB;
 }
 .navbar .my-logo {
   padding: 10px;
@@ -239,14 +239,14 @@ body {
   margin-right: 10px;
 }
 .work-contact a {
-  border-bottom: 2px solid #FF9F1C;
+  border-bottom: 2px solid #B4B8AB;
   color: white;
   text-decoration: none;
 }
 
 .container-skills {
   width: 100%;
-  background-color: #545E75;
+  background-color: #13293D;
   border-radius: 4px;
 }
 .container-skills .skills {
@@ -257,15 +257,15 @@ body {
 }
 .container-skills .html {
   width: 90%;
-  background-color: #FF9F1C;
+  background-color: #B4B8AB;
 }
 .container-skills .css {
   width: 75%;
-  background-color: #FF9F1C;
+  background-color: #B4B8AB;
 }
 .container-skills .js {
   width: 70%;
-  background-color: #FF9F1C;
+  background-color: #B4B8AB;
 }
 
 #marioDrive {
