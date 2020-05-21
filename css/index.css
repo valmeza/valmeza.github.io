@@ -232,40 +232,31 @@ body {
   border-radius: 50%;
 }
 
-.work-contact {
-  list-style: none;
+.about-container {
+  display: flex;
+  justify-content: space-evenly;
 }
-.work-contact li {
-  margin-right: 10px;
+.about-container h2 {
+  text-align: center;
 }
-.work-contact a {
-  border-bottom: 2px solid #035E7B;
-  color: white;
-  text-decoration: none;
+.about-container .about {
+  width: 50%;
+  margin: auto;
+  font-size: 1.4rem;
 }
-
-.container-skills {
-  width: 100%;
-  background-color: #000;
-  border-radius: 4px;
+.about-container .skills {
+  width: 50%;
+  margin: auto;
 }
-.container-skills .skills {
-  text-align: right;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 4px;
+.about-container .skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
-.container-skills .html {
-  width: 90%;
-  background-color: #035E7B;
-}
-.container-skills .css {
-  width: 75%;
-  background-color: #035E7B;
-}
-.container-skills .js {
-  width: 70%;
-  background-color: #035E7B;
+.about-container .skills ul li {
+  margin: 2rem;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 #marioDrive {
