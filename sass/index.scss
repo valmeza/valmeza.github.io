@@ -34,41 +34,7 @@ body {
     border-radius: 50%;
   }
 }
-.work-contact {
-  list-style: none;
-  & li {
-    margin-right: 10px;
-  }
-  & a {
-    border-bottom: 2px solid $secondary-color;
-    color: white;
-    text-decoration: none;
-  }
-}
-//skills
-.container-skills {
-  width: 100%;
-  background-color: $bg-color;
-  border-radius: 4px;
-  .skills {
-    text-align: right;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 4px;
-  }
-  .html {
-    width: 90%;
-    background-color: $html-bar-color;
-  }
-  .css {
-    width: 75%;
-    background-color: $css-bar-color;
-  }
-  .js {
-    width: 70%;
-    background-color: $js-bar-color;
-  }
-}
+
 // mario luigi Konami Code
 #marioDrive {
   position: absolute;
