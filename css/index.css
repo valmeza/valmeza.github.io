@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap");
 .secondary {
-  color: #B4B8AB;
+  color: #e5e4e2;
 }
 
 @keyframes drive {
@@ -62,9 +62,9 @@ body {
   -o-background-size: cover;
   background-size: cover;
   overflow: hidden;
-  background-color: #13293D;
+  background-color: #13293d;
   font-family: "Abel", sans-serif;
-  color: #F7F7FF;
+  color: #f7f7ff;
 }
 
 .title {
@@ -81,15 +81,15 @@ body {
 }
 
 .navbar a {
-  color: #F7F7FF;
+  color: #f7f7ff;
   font-size: 1.5em;
 }
 .navbar a:hover {
-  color: #B4B8AB;
+  color: #e5e4e2;
 }
 .navbar .my-logo {
   padding: 10px;
-  border: 2px solid #F7F7FF;
+  border: 2px solid #f7f7ff;
   border-radius: 50%;
 }
 
