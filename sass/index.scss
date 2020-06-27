@@ -40,7 +40,9 @@ body {
     border-radius: 50%;
   }
 }
-
+.scroll {
+  overflow: auto;
+}
 .summary-container{
   padding: 2em;
   border-radius: 5px;

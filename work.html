@@ -17,9 +17,12 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/index.css" />
-    <script src="https://kit.fontawesome.com/6a3a6a39bd.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/6a3a6a39bd.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body>
+  <body class="scroll">
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg nav-dark d-flex flex-row p-4">
       <a class="navbar-brand" href="#"><span class="my-logo">VM</span></a>
@@ -51,50 +54,38 @@
       </div>
     </nav>
     <div class="container text-white mb-2">
-        <h2 class="my-projects"><span class="secondary">My</span> Projects...</h2>
+      <h2 class="my-projects"><span class="secondary">My</span> Projects...</h2>
     </div>
-    <div class="container">
-      <div class="row row-cols-1 row-cols-md-2">
-        <div class="col mb-4">
-          <div class="card">
-            <img src="images/coffeeapp.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
+    <div class="container work">
+      <div class="card bg-dark mb-4">
+        <img src="images/coffeeapp.png" class="card-img" alt="..." />
+        <div class="card-img-overlay">
+          <h5 class="card-title">Coffee App Project</h5>
+          <p class="card-text">
+            Coffee Application that allows the user to search through different types of coffee roast and have the ability to add a new type of coffee roast. Programming languages used were HTML, CSS, and JavaScript.
+          </p>
         </div>
-        <div class="col mb-4">
-          <div class="card">
-            <img src="images/weatherapp.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
+      </div>
+      <div class="card bg-dark text-white mb-4">
+        <img src="images/weather.png" class="card-img" alt="..." />
+        <div class="card-img-overlay">
+          <h5 class="card-title">Weather App Project
+          </h5>
+          <p class="card-text">
+            Weather application that provides real time weather forecast based on users location. This was achieved using two API's Mapbox and Open Weather Map. Programming languages used were HTML , CSS, Ajax Request, and jQuery.
+          </p>
         </div>
-        <div class="col mb-4">
-          <div class="card">
-            <img src="images/laptop.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col mb-4">
-          <div class="card">
-            <img src="images/laptop.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
+      </div>
+      <div class="card bg-dark text-white mb-4">
+        <img src="images/dadlister.png" class="card-img" alt="..." />
+        <div class="card-img-overlay">
+          <h5 class="card-title">DadLister</h5>
+          <p class="card-text">
+            DadLister is a Full-Stack Web Application that uses the CRUD functionalities. Users can search through different ads, view a single ad, or view a users profile and Sign-up. Programming Languages used to achieve this were CSS, Bootstrap, JavaEE, JSP, Servlets, MVC, and MySQL
         </div>
       </div>
     </div>
     <div id="mario"></div>
-    </main> 
     <!-- End of Bio -->
 
     <!--  -->
