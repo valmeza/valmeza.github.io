@@ -50,6 +50,18 @@
   font-family: "Anton", sans-serif;
 }
 
+.work {
+  color: #000;
+}
+
+.fa-github-alt {
+  font-size: 2em;
+  color: #000;
+}
+.fa-github-alt:hover {
+  color: lightgreen;
+}
+
 .contact-me {
   text-align: center;
   font-family: "Anton", sans-serif;

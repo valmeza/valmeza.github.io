@@ -1,3 +1,14 @@
 .my-projects {
   font-family: $header-font;
 }
+.work {
+  color: #000;
+}
+
+.fa-github-alt {
+  font-size: 2em;
+  color: #000;
+  &:hover {
+    color: lightgreen;
+  }
+}
