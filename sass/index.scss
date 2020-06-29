@@ -3,6 +3,12 @@
 @import "contact";
 
 body {
+  background: url("https://images.pexels.com/photos/1054218/pexels-photo-1054218.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
   background-color: $bg-color;
   font-family: $paragraph-font;
   color: $primary-color;
@@ -11,7 +17,7 @@ body {
 .title {
   font-family: $header-font;
   font-size: 4em;
-   &:hover {
+  &:hover {
     animation: shake 0.5s;
     animation-iteration-count: infinite;
   }
@@ -34,41 +40,19 @@ body {
     border-radius: 50%;
   }
 }
-.work-contact {
-  list-style: none;
-  & li {
-    margin-right: 10px;
-  }
-  & a {
-    border-bottom: 2px solid $secondary-color;
-    color: white;
-    text-decoration: none;
-  }
+.scroll {
+  overflow: auto;
 }
-//skills
-.container-skills {
+.summary-container{
+  padding: 2em;
+  border-radius: 5px;
+  background-color: rgba($color: #ffffff, $alpha: 0.2);
   width: 100%;
-  background-color: $bg-color;
-  border-radius: 4px;
-  .skills {
-    text-align: right;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 4px;
-  }
-  .html {
-    width: 90%;
-    background-color: $html-bar-color;
-  }
-  .css {
-    width: 75%;
-    background-color: $css-bar-color;
-  }
-  .js {
-    width: 70%;
-    background-color: $js-bar-color;
+  .summary {
+    font-size: 1.3em;
   }
 }
+
 // mario luigi Konami Code
 #marioDrive {
   position: absolute;

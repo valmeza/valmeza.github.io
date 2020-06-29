@@ -17,9 +17,12 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/index.css" />
-    <script src="https://kit.fontawesome.com/6a3a6a39bd.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/6a3a6a39bd.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body>
+  <body class="scroll">
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg nav-dark d-flex flex-row p-4">
       <a class="navbar-brand" href="#"><span class="my-logo">VM</span></a>
@@ -51,78 +54,47 @@
       </div>
     </nav>
     <div class="container text-white mb-2">
-        <h2 class="my-projects"><span class="secondary">My</span> Projects</h2>
+      <h2 class="my-projects"><span class="secondary">My</span> Projects...</h2>
     </div>
-    <div class="container d-flex flex-row mx-auto">
-      <div class="d-flex flex-wrap mt-5">
-    <div class="flip-card m-1">
-      <div class="flip-card-inner">
-        <div class="flip-card-front">
-          <img src="images/coffeeapp.png" alt="coffee project" style='width: 350px; height: 350px;'>
-        </div>
-        <div class="flip-card-back">
-          <h1>
-            Coffee <span class="secondary">Project</span>
-          </h1>
-          <p>
-            <span class="secondary">Details: </span> This is a mock coffee
-              application where the user can filter through a variety of coffee
-              roast or have the choice to add a custom coffee.
+    <div class="container work">
+      <div class="card mb-4">
+        <div class="card-body">
+          <h5 class="card-title">Coffee App Project</h5>
+          <p class="card-text">
+            Coffee Application that allows the user to search through different types of coffee roast and have the ability to add a new type of coffee roast. Programming languages used were HTML, CSS, and JavaScript.
           </p>
-          <p>
-            <span class="secondary">Programming Languages:</span> HTML, CSS,
-              Vanilla JS
+          <p class="card-text">
+            <small class="text-muted"><a href="https://github.com/valmeza/coffee-project" target="_blank"><i class="fab fa-github-alt"></i></a></small>
           </p>
         </div>
+        <img src="images/coffeeapp.png" class="card-img-top" alt="..." />
+      </div>
+      <div class="card mb-4">
+        <div class="card-body">
+          <h5 class="card-title">Weather Map App</h5>
+          <p class="card-text">
+            Weather application that provides real time weather forecast based on users location. This was achieved using two API's Mapbox and Open Weather Map. Programming languages used were HTML , CSS, Ajax Request, and jQuery.
+          </p>
+          <p class="card-text">
+            <small class="text-muted"><a href="https://github.com/valmeza/codeup-web-exercises/blob/master/weather_map.html" target="_blank"><i class="fab fa-github-alt"></i></a></small>
+          </p>
+        </div>
+        <img src="images/weather.png" class="card-img-top" alt="..." />
+      </div>
+      <div class="card mb-4">
+        <div class="card-body">
+          <h5 class="card-title">DadLister</h5>
+          <p class="card-text">
+            DadLister is a Full-Stack Web Application that uses the CRUD functionalities. Users can search through different ads, view a single ad, or view a users profile and Sign-up. Programming Languages used to achieve this were CSS, Bootstrap, JavaEE, JSP, Servlets, MVC, and MySQL
+          </p>
+          <p class="card-text">
+            <small class="text-muted"><a href="https://github.com/The-Tech-Warriors/DadLister/tree/master" target="_blank"><i class="fab fa-github-alt"></i></a></small>
+          </p>
+        </div>
+        <img src="images/dadlister.png"card-img-top" alt="...">
       </div>
     </div>
-    <div class="flip-card m-1">
-      <div class="flip-card-inner">
-        <div class="flip-card-front">
-          <img src="images/weatherapp.png" alt="coffee project" style='width: 350px; height: 350px;'>
-        </div>
-        <div class="flip-card-back">
-          <h1>
-            Weather <span class="secondary">App</span>
-          </h1>
-          <p>
-            <span class="secondary">Details: </span> This is a mock Weather
-              Application where the user can search through different locations
-              and see what the weather is like. This was achieved using two
-              API's.
-          </p>
-          <p>
-            <span class="secondary">Programing Languages: </span> HTML, CSS, Bootstrap, 
-               jQuery
-          </p>
-          <p>
-            <span class="secondary">API: </span> Mapbox, OpenWeatherMap
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="flip-card m-1">
-      <div class="flip-card-inner">
-        <div class="flip-card-front">
-          <img src="images/laptop.jpg" alt="coffee project" style='width: 350px; height: 350px;'>
-        </div>
-        <div class="flip-card-back">
-          <h1>
-            Coming Soon!!
-          </h1>
-          <p>
-            Programming Languages:
-          </p>
-          <p>
-            Description:
-          </p>
-        </div>
-      </div>
-    </div>
-    </div>
-  </div>
     <div id="mario"></div>
-    </main> 
     <!-- End of Bio -->
 
     <!--  -->

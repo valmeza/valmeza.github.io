@@ -2,13 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap");
 
 // colors
-$bg-color: #13293D;
-$card-bg-color: #284B63;
-$primary-color: #F7F7FF;
-$secondary-color: #B4B8AB;
-$html-bar-color: #B4B8AB;
-$css-bar-color: #B4B8AB;
-$js-bar-color: #B4B8AB;
+$bg-color: #13293d;
+$primary-color: #f7f7ff;
+$secondary-color: #e5e4e2;
 
 // font sizes font family
 $header-font-size: 4em;
@@ -18,29 +14,51 @@ $paragraph-font: "Abel", sans-serif;
 
 // span color
 .secondary {
-    color: $secondary-color;
-  }
+  color: $secondary-color;
+}
 
 //mario luigi config
 @keyframes drive {
-    from {
-        transform: translate(0px);
-    }
-    to {
-        transform: translate(2500px);
-    }
+  from {
+    transform: translate(0px);
+  }
+  to {
+    transform: translate(2500px);
+  }
 }
 // make the title dance
 @keyframes shake {
-    0% { transform: translate(1px, 1px) rotate(0deg); }
-    10% { transform: translate(-1px, -2px) rotate(-1deg); }
-    20% { transform: translate(-3px, 0px) rotate(1deg); }
-    30% { transform: translate(3px, 2px) rotate(0deg); }
-    40% { transform: translate(1px, -1px) rotate(1deg); }
-    50% { transform: translate(-1px, 2px) rotate(-1deg); }
-    60% { transform: translate(-3px, 1px) rotate(0deg); }
-    70% { transform: translate(3px, 1px) rotate(-1deg); }
-    80% { transform: translate(-1px, -1px) rotate(1deg); }
-    90% { transform: translate(1px, 2px) rotate(0deg); }
-    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
   }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
